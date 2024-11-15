@@ -1,0 +1,59 @@
+body{
+    text-align:center;
+}
+
+h1{
+    font-family: 'Paytone One', sans-serif;
+    font-size: 75px;
+    color: rgb(28, 41, 65);
+    text-align:center;
+}
+h2{
+    margin-top: 0px;
+    font-weight: 20;
+    font-size:30px;
+}
+#board {
+  width: 350px;
+  height: 420px;
+  
+  margin: 0 auto;
+  margin-top: 3px;
+  display:flex;
+  flex-wrap: wrap;
+}
+hr{
+    width: 500px;
+}
+.tile {
+    
+    border: 2px solid lightgray;
+    width: 60px;
+    height: 60px;
+    margin: 2.5px;
+    
+   
+    color: black;
+    font-size:36px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.correct{
+ background-color:green;
+ color:white;
+ border-color:white;
+}
+
+.present{
+ background-color:orange;
+ color:white;
+ border-color:white;
+}
+
+.absent{
+    background-color:red;
+    color:white;
+    border-color:white;
+}
